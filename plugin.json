@@ -1,0 +1,15 @@
+{
+  "name": "carbon-neon-orchestrator",
+  "displayName": "Carbon-Neon Orchestrator",
+  "version": "1.1.0",
+  "description": "当主会话使用 Gemini 4 Carbon 模型时自动触发「主 Carbon 统筹兜底 + 副 Neon 主力干活」的智能混合 Orchestrator 模式。",
+  "logo": "assets/logo.svg",
+  "author": "RiseToTop",
+  "homepage": "https://github.com/RiseToTop/carbon-neon-orchestrator",
+  "repository": "https://github.com/RiseToTop/carbon-neon-orchestrator",
+  "suggestedPrompts": [
+    "帮我梳理这个项目的架构，并并行重构核心模块与补齐单元测试",
+    "排查当前仓库的构建报错并修复所有类型与测试问题",
+    "设计并并行开发这套前后端功能模块，最后做完整回归验证"
+  ]
+}

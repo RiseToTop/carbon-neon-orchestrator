@@ -1,0 +1,12 @@
+{
+  "carbon-neon-auto-trigger": {
+    "enabled": true,
+    "PreInvocation": [
+      {
+        "type": "command",
+        "command": "(command -v python3 >/dev/null 2>&1 && python3 \"${PLUGIN_ROOT:-.}/hooks/auto_carbon_orchestrator.py\" || /usr/bin/python3 \"${PLUGIN_ROOT:-.}/hooks/auto_carbon_orchestrator.py\")",
+        "timeout": 5
+      }
+    ]
+  }
+}
