@@ -13,6 +13,7 @@
   <img src="https://img.shields.io/badge/Primary-Gemini%204%20Carbon-6366F1?style=flat-square" alt="Gemini 4 Carbon" />
   <img src="https://img.shields.io/badge/Workers-Gemini%204%20Neon-2DD4BF?style=flat-square" alt="Gemini 4 Neon" />
   <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="MIT License" />
+  <a href="https://linux.do"><img src="https://img.shields.io/badge/Community-LINUX%20DO-F59E0B?style=flat-square" alt="LINUX DO" /></a>
 </p>
 
 ---
@@ -136,6 +137,12 @@ carbon-neon-orchestrator/
 2. **调整快车道红线或状态目录**：
    - 如需放宽/收紧微调快车道的改动行数阈值（默认 `≤ 20 行`），同步修改 `hooks/auto_carbon_orchestrator.py` 与 `skills/carbon-neon-orchestrator/SKILL.md` 即可；
    - 状态标记默认写入环境变量 `PLUGIN_DATA` 指向的目录（未设置时自动回退至系统临时目录下的 `agy-carbon-neon-orchestrator-state`），并内置旧文件自动清理逻辑，无需人工维护。
+
+---
+
+## 社区与致谢
+
+本项目首发并活跃交流于 [LINUX DO](https://linux.do) 社区。感谢 [LINUX DO](https://linux.do) 社区与各位佬友的支持、交流与宝贵反馈，欢迎在社区或 GitHub Issues 中分享你的使用心得与改进建议！
 
 ---
 
